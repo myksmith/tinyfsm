@@ -29,6 +29,10 @@ Change to the elevator example directory and compile the sources:
     $ cd examples/elevator
     $ make
 
+(For some platforms, you might not have the 'size' utility referenced
+in the Makefile, and you might have an error right after linking. 
+This should not affect the compilation.)
+
 Our elevator has call buttons on every floor, sensors reporting the
 current position, and an alarm button for emergency. These actors can
 be triggered via a simple command interface:
